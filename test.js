@@ -7,7 +7,7 @@ const fs = require("fs").promises;
 app.use("/public", express.static(__dirname + "/public"));
 
 app.get("/", function (req, res) {
-    res.sendFile(__dirname + "/public/test.html");
+    res.sendFile(__dirname + "/public/index.html");
 });
 app.get("/a", function (req, res) {
     let { number } = req.query;
