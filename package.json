@@ -5,17 +5,11 @@
     "main": "test.js",
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1",
-        "start": "node test.js",
-        "predeploy": "npm run start",
-        "deploy": "gh-pages -d build"
+        "start": "node app.js"
     },
     "author": "",
     "license": "ISC",
     "dependencies": {
         "express": "^4.18.2"
-    },
-    "homepage": "https://koisaac.github.io/work/",
-    "devDependencies": {
-        "gh-pages": "^5.0.0"
     }
 }

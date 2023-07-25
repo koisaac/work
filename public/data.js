@@ -1,4 +1,4 @@
- [
+export default [
     {
         v: "Luminol",
         u: [
